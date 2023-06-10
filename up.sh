@@ -4,7 +4,7 @@ DIR=$(realpath $0) && DIR=${DIR%/*}
 cd $DIR
 set -ex
 
-direnv allow
+direnv allow || true
 
 if [ ! -f "./.env" ]; then
   cp .env.example .env
