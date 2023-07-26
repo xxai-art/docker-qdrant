@@ -2,13 +2,6 @@
   "vectors": {
     "size": 1024,
     "distance": "Euclid",
-    "quantization_config": {
-      "scalar": {
-        "type": "int8",
-        "quantile": 0.995,
-        "always_ram": false
-      }
-    },
     "on_disk": true
   },
   "shard_number": 1,
@@ -35,5 +28,11 @@
     "wal_capacity_mb": 32,
     "wal_segments_ahead": 0
   },
-  "quantization_config": null
+  "quantization_config": {
+    "scalar": {
+      "type": "int8",
+      "quantile": 0.995,
+      "always_ram": false
+    }
+  }
 }
