@@ -5,7 +5,7 @@
     "quantization_config": {
       "scalar": {
         "type": "int8",
-        "quantile": 0.991,
+        "quantile": 0.995,
         "always_ram": false
       }
     },
