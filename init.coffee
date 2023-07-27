@@ -38,5 +38,5 @@ init = (fp)=>
 
 
 
-for db from await glob.glob join ROOT,"db/*.json"
+for db from await glob.glob join ROOT,"db/*.yml"
   console.log await init(db)
