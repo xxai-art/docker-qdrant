@@ -7,7 +7,7 @@
       quantile: 0.995
       type: int8
   vectors:
-    distance: Euclid
+    distance: Cosine
     on_disk: true
     size: 1024
 - field_name: day
