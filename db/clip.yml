@@ -12,5 +12,5 @@
     size: 1024
 - field_name: day
   field_schema: integer
-- field_name: sfw
+- field_name: nsfw
   field_schema: integer
