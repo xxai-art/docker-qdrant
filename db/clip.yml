@@ -14,3 +14,7 @@
   field_schema: integer
 - field_name: nsfw
   field_schema: integer
+- field_name: h
+  field_schema: integer
+- field_name: w
+  field_schema: integer
